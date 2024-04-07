@@ -1,0 +1,28 @@
+ {% extends 'base.html.twig' %}
+
+{% block title %}Inscription{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row justify-content-center mb-4">
+        <h3 class="title text-center mt-4">Inscription Diner des entrepreneurs chrétiens</h3>
+        <h5 class="text-white mb-5 text-center">Remplissez le formulaire ci-dessous, votre dossier seras soumis à une etude</h5>
+    </div>
+    {{ form_start(form) }}
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div class="card ">
+                <div class="card-body">
+                    {{ include('inscription/_form.html.twig') }}
+                </div>
+                <div class="card-footer row justify-content-center">
+                    <div class="col-2">
+                        <button type="submit" class="text-center send">ENVOYER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ form_end(form) }}
+</div>
+{% endblock %}

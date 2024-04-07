@@ -1,0 +1,19 @@
+body {
+    background-color: #1E0B05;
+}
+
+.title {
+    color: #EBB122;
+}
+
+.card {
+    background-color: rgb(113 81 81 / 1) !important;
+    color: white !important;
+}
+
+.send {
+    border-radius: 5px !important;
+    background-color: #999999;
+    padding: 7px;
+    color: white !important;
+}
