@@ -37,7 +37,7 @@ class InscriptionType extends AbstractType
                     'entrepreneurs sociaux' => 'entrepreneurs sociaux',
                     'mode et marque' => 'mode et marque',
                     'oeuvre caritative' => 'oeuvre caritative',
-                    'présentation de service' => 'présentation de service',
+                    'prestation de service' => 'prestation de service',
                     'technologie' => 'technologie',
                 ],
             ])
